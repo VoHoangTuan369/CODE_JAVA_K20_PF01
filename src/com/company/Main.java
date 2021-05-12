@@ -3,13 +3,14 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        Student obj = new Student();
+        NumberAccount acc = new NumberAccount();
+
         new Thread(()->{
-            obj.printPoint();
+            acc.sub(50000);
         }).start();
 
         new Thread(()->{
-            obj.printPoint();
+            acc.add(100000);
         }).start();
     }
 }
