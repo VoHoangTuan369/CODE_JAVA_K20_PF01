@@ -1,6 +1,4 @@
-package com.company;
-
-import java.util.ArrayList;
+package SS2;
 
 public class NumberAccount {
     private int numberAccount = 0;

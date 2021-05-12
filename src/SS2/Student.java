@@ -1,4 +1,4 @@
-package com.company;
+package SS2;
 
 public class Student {
     public synchronized void printPoint(){
